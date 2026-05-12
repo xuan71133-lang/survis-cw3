@@ -1,83 +1,134 @@
-@inproceedings{protonet2017,
-  title={Prototypical Networks for Few-shot Learning},
-  author={Snell, J. and Swersky, K. and Zemel, R.},
-  year={2017},
-  keywords={type:metric-based, miniImageNet}
+@article{bengio2013survey,
+  title={Representation Learning: A Review and New Perspectives},
+  author={Bengio, Yoshua and Courville, Aaron and Vincent, Pascal},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={35},
+  number={8},
+  pages={1798--1828},
+  year={2013},
+  publisher={IEEE},
+  doi={10.1109/TPAMI.2013.50},
+  keywords={type:survey}
 }
 
-@inproceedings{matchingnet2016,
-  title={Matching Networks for One Shot Learning},
-  author={Vinyals, O. et al.},
-  year={2016},
-  keywords={type:metric-based, Omniglot}
-}
-
-@inproceedings{relationnet2018,
-  title={Relation Networks for Few-shot Learning},
-  author={Sung, F. et al.},
-  year={2018},
-  keywords={type:metric-based, miniImageNet}
-}
-
-@inproceedings{maml2017,
-  title={Model-Agnostic Meta-Learning},
-  author={Finn, C. et al.},
-  year={2017},
-  keywords={type:meta-learning, miniImageNet}
-}
-
-@inproceedings{metabaseline2021,
-  title={Meta-Baseline},
-  author={Chen, Y. et al.},
-  year={2021},
-  keywords={type:meta-learning, miniImageNet}
-}
-
-@inproceedings{resnet2016,
-  title={Deep Residual Learning for Image Recognition},
-  author={He, K. et al.},
-  year={2016},
-  keywords={type:feature-representation, ImageNet}
-}
-
-@inproceedings{vit2021,
-  title={Vision Transformer},
-  author={Dosovitskiy, A. et al.},
-  year={2021},
-  keywords={type:feature-representation, ImageNet}
-}
-
-@inproceedings{simclr2020,
-  title={SimCLR},
-  author={Chen, T. et al.},
-  year={2020},
-  keywords={type:feature-representation, ImageNet}
-}
-
-@inproceedings{baselinepp2019,
-  title={Baseline++},
-  author={Chen, W. Y. et al.},
+@inproceedings{bertinetto2019cifarfs,
+  title={Meta-learning with Differentiable Closed-form Solvers},
+  author={Bertinetto, Luca and Henriques, Joao F. and Torr, Philip H. S. and Vedaldi, Andrea},
+  booktitle={International Conference on Learning Representations},
+  pages={1--10},
   year={2019},
-  keywords={type:hybrid, miniImageNet}
-}
-
-@article{sslprotonet2023,
-  title={SSL-ProtoNet},
-  author={Lim, J. Y. et al.},
-  year={2023},
-  keywords={type:hybrid, CIFAR-FS}
-}
-
-@article{cifarfs2019,
-  title={CIFAR-FS Benchmark},
-  author={Bertinetto, L. et al.},
-  year={2019},
+  publisher={ICLR},
+  doi={10.48550/arXiv.1905.10675},
   keywords={type:dataset, CIFAR-FS}
 }
 
-@article{survey2013,
-  title={Representation Learning Survey},
-  author={Bengio, Y. et al.},
-  year={2013},
-  keywords={type:survey}
+@inproceedings{chen2020simclr,
+  title={A Simple Framework for Contrastive Learning of Visual Representations},
+  author={Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey},
+  booktitle={International Conference on Machine Learning},
+  pages={1597--1607},
+  year={2020},
+  publisher={PMLR},
+  doi={10.48550/arXiv.2002.05709},
+  keywords={type:feature-representation, ImageNet}
+}
+
+@inproceedings{chen2021metabaseline,
+  title={Meta-Baseline: Exploring Simple Meta-Learning for Few-Shot Learning},
+  author={Chen, Yinbo and Liu, Zhuang and Xu, Huijuan and Darrell, Trevor and Wang, Xiaolong},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={9062--9071},
+  year={2021},
+  publisher={IEEE},
+  doi={10.1109/ICCV.2021.00359},
+  keywords={type:meta-learning, miniImageNet}
+}
+
+@inproceedings{chen2019closerlook,
+  title={A Closer Look at Few-shot Classification},
+  author={Chen, Wei-Yu and Liu, Yen-Cheng and Kira, Zsolt and Wang, Yu-Chiang and Huang, Jia-Bin},
+  booktitle={International Conference on Learning Representations},
+  pages={1--10},
+  year={2019},
+  publisher={ICLR},
+  doi={10.48550/arXiv.1904.04232},
+  keywords={type:hybrid, miniImageNet}
+}
+
+@inproceedings{dosovitskiy2021vit,
+  title={An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  author={Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and others},
+  booktitle={International Conference on Learning Representations},
+  pages={1--10},
+  year={2021},
+  publisher={ICLR},
+  doi={10.48550/arXiv.2010.11929},
+  keywords={type:feature-representation, ImageNet}
+}
+
+@inproceedings{finn2017maml,
+  title={Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks},
+  author={Finn, Chelsea and Abbeel, Pieter and Levine, Sergey},
+  booktitle={International Conference on Machine Learning},
+  pages={1126--1135},
+  year={2017},
+  publisher={PMLR},
+  doi={10.48550/arXiv.1703.03400},
+  keywords={type:meta-learning, miniImageNet}
+}
+
+@inproceedings{he2016resnet,
+  title={Deep Residual Learning for Image Recognition},
+  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={770--778},
+  year={2016},
+  publisher={IEEE},
+  doi={10.1109/CVPR.2016.90},
+  keywords={type:feature-representation, ImageNet}
+}
+
+@article{lim2023sslprotonet,
+  title={SSL-ProtoNet: Self-supervised Learning Prototypical Networks for Few-shot Learning},
+  author={Lim, Jit Yan and Lim, Kian Ming and Lee, Chin Poo and Tan, Yong Xuan},
+  journal={Expert Systems with Applications},
+  volume={238},
+  pages={122173},
+  year={2024},
+  publisher={Elsevier},
+  doi={10.1016/j.eswa.2023.122173},
+  keywords={type:hybrid, CIFAR-FS}
+}
+
+@inproceedings{snell2017protonet,
+  title={Prototypical Networks for Few-shot Learning},
+  author={Snell, Jake and Swersky, Kevin and Zemel, Richard},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={4077--4087},
+  year={2017},
+  publisher={Curran Associates},
+  doi={10.48550/arXiv.1703.05175},
+  keywords={type:metric-based, miniImageNet}
+}
+
+@inproceedings{sung2018relationnet,
+  title={Learning to Compare: Relation Network for Few-Shot Learning},
+  author={Sung, Flood and Yang, Yongxin and Zhang, Li and Xiang, Tao and Torr, Philip H. S. and Hospedales, Timothy M.},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={1199--1208},
+  year={2018},
+  publisher={IEEE},
+  doi={10.1109/CVPR.2018.01173},
+  keywords={type:metric-based, miniImageNet}
+}
+
+@inproceedings{vinyals2016matchingnet,
+  title={Matching Networks for One Shot Learning},
+  author={Vinyals, Oriol and Blundell, Charles and Lillicrap, Timothy and Wierstra, Daan},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={3630--3638},
+  year={2016},
+  publisher={Curran Associates},
+  doi={10.48550/arXiv.1606.04080},
+  keywords={type:metric-based, Omniglot}
 }
